@@ -1,0 +1,46 @@
+.list {
+    font-size: larger;
+}
+
+.list-hak-pasien {
+    margin-bottom: 10rem;
+}
+
+.nav-link:hover {
+    font-weight: 500;
+}
+
+footer {
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-top: auto;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+@media (max-width: 992px) {
+    .home .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .col-6 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .home img {
+        width: 350px;
+    }
+}
