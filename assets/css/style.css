@@ -29,6 +29,10 @@ footer {
     filter: invert(1);
 }
 
+.subjudul {
+    padding-top: 6%;
+}
+
 @media (max-width: 992px) {
     .row {
         display: flex;
@@ -54,21 +58,6 @@ footer {
         width: 350px;
     }
 
-    /* .tata-tertib .w-25 {
-        display: none;
-    }
-
-    .pencegahan-pasien-jatuh .w-25 {
-        display: none;
-    }
-
-    .hak-pasien .w-25 {
-        display: none;
-    }
-
-    .tanggung-jawab .w-25 {
-        display: none;
-    } */
 
     .tata-tertib .container {
         height: fit-content !important;
@@ -79,8 +68,9 @@ footer {
         font-size: medium;
     }
 
-    main .container h2 {
+    .subjudul {
         margin-bottom: 0 !important;
+        padding-top: 0;
     }
 
     .w-75 {
