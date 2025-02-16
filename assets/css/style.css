@@ -43,4 +43,20 @@ footer {
     .home img {
         width: 350px;
     }
+
+    .tata-tertib .w-25 {
+        display: none;
+    }
+
+    .pencegahan-pasien-jatuh .w-25 {
+        display: none;
+    }
+
+    .hak-pasien .w-25 {
+        display: none;
+    }
+
+    .tanggung-jawab .w-25 {
+        display: none;
+    }
 }
