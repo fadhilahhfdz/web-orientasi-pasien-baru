@@ -30,9 +30,19 @@ footer {
 }
 
 @media (max-width: 992px) {
-    .home .row {
+    .row {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .row-hak-pasien {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-tgjwb {
+        display: flex;
+        flex-direction: column;
     }
 
     .col-6 {
@@ -44,7 +54,7 @@ footer {
         width: 350px;
     }
 
-    .tata-tertib .w-25 {
+    /* .tata-tertib .w-25 {
         display: none;
     }
 
@@ -58,5 +68,32 @@ footer {
 
     .tanggung-jawab .w-25 {
         display: none;
+    } */
+
+    .tata-tertib .container {
+        height: fit-content !important;
+        margin-bottom: 50px;
+    }
+
+    .list {
+        font-size: small;
+    }
+
+    main .container h2 {
+        margin-bottom: 0 !important;
+    }
+
+    .w-75 {
+        width: 100% !important;
+    }
+
+    .w-25 {
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .w-25 img {
+        width: 100px;
     }
 }
