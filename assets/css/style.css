@@ -4,6 +4,11 @@
   font-family: "Poppins", serif;
 }
 
+.home {
+  max-height: fit-content;
+  margin-bottom: 20px;
+}
+
 .hero {
   padding-left: 8% !important;
 }
@@ -89,7 +94,6 @@ footer {
 
   .submenu {
     padding: 0 !important;
-
   }
 
   .card {
@@ -98,9 +102,14 @@ footer {
 
   .card .teks p {
     font-size: small;
+    font-weight: 500;
   }
 
   .custom-icon {
     font-size: 50px;
+  }
+
+  .logo {
+    margin-right: 20px;
   }
 }
