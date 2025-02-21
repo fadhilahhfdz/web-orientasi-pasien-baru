@@ -149,6 +149,10 @@ footer {
     font-size: medium;
   }
 
+  .jam {
+    font-size: smaller !important;
+  }
+
   .swiper-button-prev,
   .swiper-button-next {
     display: none;
